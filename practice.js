@@ -47,7 +47,14 @@ welcome(getName);
 
 //What is the difference between arguments and parameters?
 
-  //Answer Here
+ // the parameters are the aliases for the values of that will be passed to the function. The arguments are the actual values. 
+var foo = function( a, b, c ) {
+
+}; // a, b, and c are the parameters
+
+foo( 1, 2, 3 ); 
+
+// 1, 2, and 3 are the arguments
 
 
 //Next problem
