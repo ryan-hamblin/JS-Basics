@@ -20,9 +20,11 @@ console.log(isRyan(name));
 
 
 //Create a function called getName that uses prompt() to prompt the user for their name, then returns the name.
-
-
-  //Code Here
+var name = prompt("what is your name bitc?");
+var getName = function(){
+	return name; 
+}
+console.log(name);
 
 
 //Next Problem
