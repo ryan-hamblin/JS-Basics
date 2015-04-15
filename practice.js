@@ -1,11 +1,18 @@
 //Once you complete a problem, open up Chrome and check the answer in the console.
 
 
-var name = 'Tyler';
+
 //Create a function called isTyler that accepts name as it's only argument.
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
-
-  //Code Here
+var name = 'Ryan';
+var isRyan = function(name){
+	if(name === 'Ryan'){
+		return true;
+	} else {
+		return false;
+	}
+}
+console.log(isRyan(name));
 
 
 //Next problem
